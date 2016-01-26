@@ -29,7 +29,7 @@ var typeMap = {
 };
 
 module.exports = {
-  SERVER_PORT: 1337,
+  SERVER_PORT: 80,
   GLOBSTAR: GLOBSTAR,
   basePaths: basePaths,
 
