@@ -4,8 +4,8 @@
   "description": "'plexus' design",
   "author": "ethereum project",
   "scripts": {
-    "postinstall": "gulp build",
-    "start": "gulp watch"
+    "postinstall": "./node_modules/.bin/gulp build",
+    "start": "./node_modules/.bin/gulp watch"
   },
   "devDependencies": {
     "event-stream": "^3.1.4",
